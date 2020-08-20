@@ -17,6 +17,8 @@ bool move_left(char a[3][3]){
     }
     return false;
 }
+/******************************************************
+ */
 int evaluation(char a[3][3]){
     //checking for rows for player1 or player2 victory.
     for(int row=0;row<3;row++){
