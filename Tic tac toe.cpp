@@ -4,6 +4,7 @@ struct Move{
     int row;
     int col;
 };
+/////////////////////
 char player1='x',player2='o';
     //function return false if no moves left to play else return true.
 bool move_left(char a[3][3]){
